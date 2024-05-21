@@ -1,6 +1,9 @@
 import manage as mg
 
 while True:
+    print('='*25) 
+    print("SELAMAT DATANG DI PROGRAM STOCK")
+    print('='*25) 
     mg.menu()
     pilihan = int(input('Masukan Pilihan : '))
 
