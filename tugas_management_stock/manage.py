@@ -55,7 +55,7 @@ def cari_data():
         print("Barang tidak ditemukan.")
 
 def data_barang():
-    print("= = = = = T o k o E l e k t r o n i k = = = = =")
+    print("=== toko elektronik husain ===")
     if barang:
         print("=== DATA BARANG ==")
         for item in barang:
