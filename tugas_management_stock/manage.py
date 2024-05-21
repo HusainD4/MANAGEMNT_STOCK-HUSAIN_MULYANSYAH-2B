@@ -16,6 +16,7 @@ def tambah ():
     stok = input('Masukan Stok Barang : ')
     data_baru = {'nama barang':nama,'stok':stok}
     barang.append(data_baru)
+    print('='*25) 
 
 def edit():
     nomor_barang = int(input("Hapus Data Barang ke : "))
@@ -25,8 +26,10 @@ def edit():
         item['nama'] = input("Masukkan nama barang baru: ")
         item['stok'] = int(input("Masukkan stok barang baru: "))
         print("Data barang berhasil diubah.")
+        print('='*25) 
     else:
         print("Nomor barang tidak ditemukan.")
+        print('='*25) 
 
 
 def delete():
@@ -34,11 +37,15 @@ def delete():
     if barang:
         if 1 <= hapus <= len(barang):
             del barang[hapus - 1]
+            print('='*25) 
             print("Data barang berhasil dihapus.")
+            print('='*25) 
         else:
             print("Index barang tidak ditemukan.")
+            print('='*25) 
     else:
         print('Data barang kosong.')
+        print('='*25) 
 
 def cari_data():
     if barang:
