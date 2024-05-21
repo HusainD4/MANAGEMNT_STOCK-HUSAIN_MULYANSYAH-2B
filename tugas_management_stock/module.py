@@ -18,6 +18,6 @@ while True:
         mg.tampilkan_jumlah_data_barang()
     if pilihan == 7:
         print('='*25)  
-        print("TERIMAKASIH")  
+        print("TERIMAKASIH TELAH MENGGUNAKAN PROGRAM\nDATA MANAGEMENT HUSAIN")  
         print('='*25)
         exit()  
